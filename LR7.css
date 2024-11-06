@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: url("fonlr7.avif");
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.mainContent{
+    margin-top: 3%;
+    backdrop-filter: blur(5px);
+    background-color:rgba(0, 0, 0, 0.563);
+    border: 2px solid white;
+    border-radius: 50px;
+    height: 500px;
+    width: 500px;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+#magicBall{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    transition: transform 0.3s;
+}
+#inputAsk{
+    font-size: 30px;
+}
