@@ -37,3 +37,19 @@ body {
 #inputAsk{
     font-size: 30px;
 }
+.return{
+    background-image: url("gameFon.avif");
+    color: aliceblue;
+    border: 2px solid aliceblue;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    font-size: 30px;
+    padding: 15px;
+    cursor: pointer;
+}
+.return:hover{
+    border: 2px solid green;
+}
+.return:active{
+    border: 2px solid red;
+}
